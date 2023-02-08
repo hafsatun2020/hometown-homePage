@@ -1,0 +1,273 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 450px){
+    
+    body {
+        margin: 0 auto;
+        padding: 0%;
+        text-align: center;
+        width: 100%;
+        display: block;
+        right: 0;
+        left: 0;
+        position: absolute;
+        font-family: 'Smythe', cursive;
+    }
+    
+    .container {
+        display: block;
+       
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .bg-image{
+        background-image: url('images/torshov.jpg');
+        background-size: cover;
+        
+        height: 343px;
+        padding: 5rem 0;
+        text-align: center;
+        margin: 0 auto;
+        text-align: center;
+    
+    }
+    
+    
+    h1 {
+        
+        width: 201px;
+        height: 34px;
+        background-color: #457B9D;
+       margin:  10px auto;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    h2 {
+        background-color:#1D3557 ;
+        margin: 10px auto;
+        max-width: 70%;
+        font-weight: 700;
+        font-size: 18.72px;
+        line-height: 22px;
+        text-align: center;
+        padding: 10px;
+        color: #FFFFFF;
+        
+    }
+    
+    .activities {
+    
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #F1FAEE;
+    padding: 10px;
+    
+    }
+    
+    .activity{
+    width: 80vw;
+    
+    }
+
+    .activity img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    
+    .images{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .guide{
+        max-width: 400px;
+    padding: 10px;
+    background: #FFFFFF;
+    margin: auto;
+    }
+    
+    .guide-rec{
+    display: flex;
+    flex-direction: row;
+    height: 294px;
+    padding: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 50px auto;
+    }
+    
+    .guide-rec img {
+    margin: auto auto;
+    width: 180px;
+    height: 248.67px;
+    left: 173px;
+    top: 73px;
+    border-radius: 10px;
+    }
+    
+    .text-rec  h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #1D3557;
+    
+    }
+    
+    .quote {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    }
+    
+    h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    
+    }
+   
+} 
+
+
+@media (max-width: 449px){
+
+    img {
+        width: 100px;
+    }
+    
+    
+    body {
+        margin: 0 auto;
+        padding: 0%;
+        text-align: center;
+        width: 100%;
+        display: block;
+        right: 0;
+        left: 0;
+        position: absolute;
+        font-family: 'Smythe', cursive;
+    }
+    
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bg-image{
+        width: 100%;
+        height: 50vh;
+        background-image: url('images/torshov.jpg');
+        background-size: cover;
+        
+    }
+    
+    h1, h2 {
+        font-size: 1rem;
+        padding: 4px;
+        color: white;
+        margin: 0 auto;
+
+    
+    }
+
+
+
+    h1 {
+        background-color: #457B9D;
+        width: 8rem;
+        padding: 10px;
+        
+
+    }
+
+    h2 {
+        background-color:#1D3557;
+        width: 80%;
+        margin-top: 10px;
+    }
+    
+    #intro {
+        margin: 30% auto;
+        text-align: center;
+    }
+    
+
+     .activity img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .activities{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+    background: #F1FAEE;
+    padding: 10px;
+    }
+    
+    .text-rec{
+        padding: 10px;
+    }
+    .guide-rec img {
+        height: 150px;
+        margin: auto;
+        border-radius: 80%;
+    }
+    
+    .guide-rec {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    padding: 15px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 20px auto;
+    }
+}
